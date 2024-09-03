@@ -9,7 +9,7 @@
     {
       "src": "/",
       "headers": { "Location": "/search" },
-      "status": 307
+      "status": 308
     },
     {
       "src": "/(.*)",
