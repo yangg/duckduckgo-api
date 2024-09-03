@@ -7,14 +7,12 @@
   ],
   "routes": [
     {
+      "src": "/",
+      "dest": "/search"
+    },
+    {
       "src": "/(.*)",
       "dest": "app.py"
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/search"
     }
   ]
 }
