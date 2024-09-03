@@ -8,8 +8,8 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/search",
-      "continue": true
+      "headers": { "Location": "/search" },
+      "status": 307
     },
     {
       "src": "/(.*)",
